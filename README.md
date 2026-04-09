@@ -44,9 +44,10 @@ State | Input | Next State
 q0    | a     | q1
 q1    | ε     | q2
 q2    | b     | q3
+```
+---
 
-
-💻 Tech Stack
+##💻 Tech Stack
 Language: [Insert Language, e.g., Java / Python / C++]
 
 Concepts: Finite Automata, Thompson's Construction, Shunting Yard Algorithm.
@@ -55,7 +56,7 @@ Concepts: Finite Automata, Thompson's Construction, Shunting Yard Algorithm.
 Clone the repository:
 
 Bash
-git clone [https://github.com/YourUsername/NU-ITCS-Hub-backend.git](https://github.com/YourUsername/NU-ITCS-Hub-backend.git)
+git clone [https://github.com/FarahAwadalla/NU-ITCS-Hub-backend.git](https://github.com/YourUsername/NU-ITCS-Hub-backend.git)
 Navigate to the directory:
 
 Bash
