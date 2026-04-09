@@ -44,3 +44,9 @@ State | Input | Next State
 q0    | a     | q1
 q1    | ε     | q2
 q2    | b     | q3
+
+
+##💻 Tech Stack
+Language: [Insert Language, e.g., Java / Python / C++]
+
+Concepts: Finite Automata, Thompson's Construction, Shunting Yard Algorithm.
