@@ -46,7 +46,35 @@ q1    | ε     | q2
 q2    | b     | q3
 
 
-##💻 Tech Stack
+💻 Tech Stack
 Language: [Insert Language, e.g., Java / Python / C++]
 
 Concepts: Finite Automata, Thompson's Construction, Shunting Yard Algorithm.
+
+📥 Installation & Usage
+Clone the repository:
+
+Bash
+git clone [https://github.com/YourUsername/NU-ITCS-Hub-backend.git](https://github.com/YourUsername/NU-ITCS-Hub-backend.git)
+Navigate to the directory:
+
+Bash
+cd regex-nfa-converter
+Run the application:
+
+Bash
+# Replace with your actual run command
+python main.py 
+📝 Example Output
+Input: (a|b)*c
+
+Refined Regex: (a|b)*.c
+
+Postfix Notation: ab|*c.
+
+NFA Result: * Start State: q0
+
+Accept State: q10
+
+📄 License
+This project is for educational purposes as part of the University TOC Course.
