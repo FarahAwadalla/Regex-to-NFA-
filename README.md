@@ -47,35 +47,50 @@ q2    | b     | q3
 ```
 ---
 
-##💻 Tech Stack
-Language: [Insert Language, e.g., Java / Python / C++]
+---
 
-Concepts: Finite Automata, Thompson's Construction, Shunting Yard Algorithm.
+## 💻 Tech Stack
 
-📥 Installation & Usage
-Clone the repository:
+- **Language:** Python
+- **Concepts:** Finite Automata, Thompson's Construction, Shunting Yard Algorithm
 
-Bash
-git clone [https://github.com/FarahAwadalla/NU-ITCS-Hub-backend.git](https://github.com/YourUsername/NU-ITCS-Hub-backend.git)
-Navigate to the directory:
+---
 
-Bash
-cd regex-nfa-converter
-Run the application:
+## 📥 Installation & Usage
 
-Bash
-# Replace with your actual run command
-python main.py 
-📝 Example Output
-Input: (a|b)*c
+**1. Clone the repository**
 
-Refined Regex: (a|b)*.c
+```bash
+git clone https://github.com/FarahAwadalla/Regex-to-NFA-.git
+```
 
-Postfix Notation: ab|*c.
+**2. Navigate to the directory**
 
-NFA Result: * Start State: q0
+```bash
+cd Regex-to-NFA-
+```
 
-Accept State: q10
+**3. Run the application**
 
-📄 License
-This project is for educational purposes as part of the University TOC Course.
+```bash
+python main.py
+```
+
+---
+
+## 📝 Supported Operators
+
+| Operator | Meaning |
+|:---:|:---|
+| `\|` | Union (a or b) |
+| `*` | Kleene Star (zero or more) |
+| `+` | One or more |
+| `?` | Optional (zero or one) |
+| `()` | Grouping |
+| `ε` | Epsilon (empty string) |
+
+---
+
+## 📄 License
+
+This project is for educational purposes as part of the CSCI419 Theory of Computation course — Nile University.
