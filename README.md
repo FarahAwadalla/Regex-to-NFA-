@@ -43,17 +43,18 @@ This application takes a standard Regular Expression as input, validates it, con
 Start State  : q0
 Accept State : q9
 
-State         a           b           c           ε
-────────────────────────────────────────────────────────
-→ q0         {q1}        ∅           ∅           ∅
-  q1          ∅           ∅           ∅           {q2}
-  q2          ∅           ∅           ∅           {q3,q5}
-  q3          ∅           {q4}        ∅           ∅
-  q4          ∅           ∅           ∅           {q7}
-  q5          ∅           ∅           {q6}        ∅
-  q6          ∅           ∅           ∅           {q7}
-  q7          ∅           ∅           ∅           {q2,q9}
-* q9          ∅           ∅           ∅           ∅
+State       a           b           c           ε
+------------------------------------------------------------
+→q0        {q1}        ∅           ∅           ∅
+  q1        ∅           ∅           ∅           {q8}        
+  q2        ∅           {q3}        ∅           ∅
+  q3        ∅           ∅           ∅           {q7}
+  q4        ∅           ∅           {q5}        ∅
+  q5        ∅           ∅           ∅           {q7}
+  q6        ∅           ∅           ∅           {q2,q4}
+  q7        ∅           ∅           ∅           {q6,q9}
+  q8        ∅           ∅           ∅           {q6,q9}
+ *q9        ∅           ∅           ∅           ∅
 ```
 ---
 
