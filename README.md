@@ -39,11 +39,21 @@ This application takes a standard Regular Expression as input, validates it, con
 
 ### Example Transition Table
 ```text
-State | Input | Next State
---------------------------
-q0    | a     | q1
-q1    | ε     | q2
-q2    | b     | q3
+===== NFA Transition Table =====
+Start State  : q0
+Accept State : q9
+
+State         a           b           c           ε
+────────────────────────────────────────────────────────
+→ q0         {q1}        ∅           ∅           ∅
+  q1          ∅           ∅           ∅           {q2}
+  q2          ∅           ∅           ∅           {q3,q5}
+  q3          ∅           {q4}        ∅           ∅
+  q4          ∅           ∅           ∅           {q7}
+  q5          ∅           ∅           {q6}        ∅
+  q6          ∅           ∅           ∅           {q7}
+  q7          ∅           ∅           ∅           {q2,q9}
+* q9          ∅           ∅           ∅           ∅
 ```
 ---
 
