@@ -1,6 +1,6 @@
 # Regex to NFA Converter ⚙️
 
-A powerful tool built to convert Regular Expressions into Non-deterministic Finite Automata (NFA) using **Thompson’s Construction Algorithm**. This project was developed as part of the Theory of Computation (TOC) curriculum.
+A powerful tool built to convert Regular Expressions into Non-deterministic Finite Automata (NFA) using **Thompson’s Construction Algorithm**. This project was developed as part of the Theory of Computing (TOC) course.
 
 ---
 
@@ -20,10 +20,10 @@ This application takes a standard Regular Expression as input, validates it, con
 
 | Member | Responsibility | Key Tasks |
 | :--- | :--- | :--- |
-| **Member 1** | **Input & Validation** | Preprocessing, parentheses balancing, explicit dot (`.`) insertion. |
-| **Member 2** | **Expression Conversion** | Infix to Postfix conversion using the Shunting Yard algorithm. |
-| **Member 3** | **NFA Builder** | Implementation of Thompson's Construction (Union, Star, Concatenation). |
-| **Member 4** | **UI & Formatting** | NFA output representation, transition table formatting, and integration. |
+| **Farah Awadalla** | **Input & Validation** | Preprocessing, parentheses balancing, explicit dot (`.`) insertion. |
+| **Yomna Saad** | **Expression Conversion** | Infix to Postfix conversion using the Shunting Yard algorithm. |
+| **Taghreed Oyoun** | **NFA Builder** | Implementation of Thompson's Construction (Union, Star, Concatenation). |
+| **Mohamed Sherif** | **UI & Formatting** | NFA output representation, transition table formatting, and integration. |
 
 ---
 
