@@ -1,6 +1,7 @@
 from parser import preprocess_regex
 from postfix import regex_to_postfix
 from thompson import postfix_to_nfa, print_nfa
+from visualize import visualize_nfa 
 
 if __name__ == "__main__":
     result = preprocess_regex()
@@ -12,3 +13,5 @@ if __name__ == "__main__":
         
         nfa = postfix_to_nfa(postfix)
         print_nfa(nfa)
+
+        visualize_nfa(nfa, filename="nfa_output")
